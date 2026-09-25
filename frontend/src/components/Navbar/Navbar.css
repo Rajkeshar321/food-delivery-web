@@ -99,9 +99,14 @@
 .nav-profile-dropdown li:hover {
     color: tomato;
 }
+
 @media (max-width: 1050px) {
     .navbar .logo {
         width: 140px;
+    }
+
+    .navbar-right {
+        gap: 25px;
     }
 }
 
@@ -120,7 +125,7 @@
     }
 
     .navbar-right {
-        gap: 15px;
+        gap: 12px;
     }
 
     .navbar-right > img {
@@ -131,23 +136,24 @@
         width: 20px;
     }
 
-    .navbar button {
-        font-size: 14px;
-        padding: 8px 15px;
+    .navbar-profile > img {
+        width: 25px;
+        height: 25px;
     }
 
-    .navbar-profile > img {
-        width: 30px;
+    .navbar button {
+        font-size: 13px;
+        padding: 7px 12px;
     }
 }
 
 @media (max-width: 600px) {
     .navbar {
-        padding: 15px 0;
+        padding: 12px 0;
     }
 
     .navbar .logo {
-        width: 110px;
+        width: 100px;
     }
 
     .navbar-menu {
@@ -155,23 +161,52 @@
     }
 
     .navbar-right {
-        gap: 15px;
+        gap: 10px;
     }
 
     .navbar-right > img {
-        width: 20px;
+        width: 18px;
     }
 
     .navbar-search-icon img {
-        width: 20px;
+        width: 18px;
     }
 
     .navbar-profile > img {
-        width: 30px;
+        width: 22px;
+        height: 22px;
     }
 
     .navbar button {
-        font-size: 13px;
-        padding: 7px 13px;
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .navbar .logo {
+        width: 90px;
+    }
+
+    .navbar-right {
+        gap: 7px;
+    }
+
+    .navbar-right > img {
+        width: 16px;
+    }
+
+    .navbar-search-icon img {
+        width: 16px;
+    }
+
+    .navbar-profile > img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .navbar button {
+        font-size: 11px;
+        padding: 5px 8px;
     }
 }
